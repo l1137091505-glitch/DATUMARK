@@ -36,6 +36,7 @@ function App(){
    {tab==="add"&&<AddRecord cabinet={cabinet||demoCabinet} busy={busy} account={account} connect={connect} transact={transact} done={()=>setTab("index")} setNotice={setNotice}/>} 
    {tab==="protocol"&&<Protocol/>}
   </>}
+  <footer className="bot-footer"><span>Powered by <a href="https://botchain.ai" target="_blank" rel="noreferrer">BOT Chain</a> · Chain ID 677 (Mainnet)</span><i></i><a href="https://scan.botchain.ai" target="_blank" rel="noreferrer">Block Explorer</a><i></i><a href="https://botchain.ai" target="_blank" rel="noreferrer">botchain.ai</a></footer>
  </div>;
 }
 
